@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#F1E6FF"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:id="@+id/holderLinearLayout">
+
+    <TextView
+        android:id="@+id/noteTextView"
+        android:textSize="17dp"
+        android:background="#F1E6FF"
+        android:textColor="#6B4B91"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/ibEditNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+
+
+    <ImageButton
+        android:id="@+id/ibDeleteNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:srcCompat="@android:drawable/ic_delete"  />
+
+
+
+
+</LinearLayout>
